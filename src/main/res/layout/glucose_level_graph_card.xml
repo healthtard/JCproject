@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/glucose_level">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_margin="8dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/padding10"
+            android:paddingTop="@dimen/padding10"
+            android:paddingBottom="@dimen/padding10">
+
+            <com.jjoe64.graphview.helper.GraphViewXML
+                android:layout_width="match_parent"
+                android:layout_height="200dip"
+                android:id="@+id/graph"
+                app:seriesData="1=178;3=178;4=200;5=150"
+                app:seriesType="line"
+                app:seriesColor="#00cc00"
+                app:seriesTitle="mg/dl"
+                android:title="Blood glucose: last five days" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

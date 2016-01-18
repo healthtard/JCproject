@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/now_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/app_background_grey"
+        android:paddingBottom="@dimen/padding5"
+        android:paddingTop="@dimen/padding5"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/now_list_view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+        <TextView
+            android:id="@+id/now_text_view"
+            android:layout_height = "wrap_content"
+            android:layout_width = "match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/padding10"
+            android:layout_marginRight="@dimen/padding10"
+            android:layout_marginTop="@dimen/padding5"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:padding="@dimen/margin15"
+            android:text="@string/No_now_cards"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <include
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        layout="@layout/include_view_progress_bar" />
+
+</RelativeLayout>

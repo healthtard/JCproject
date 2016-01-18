@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">janacare</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Support one step away!</string>
+    <string name="title">Jana care introduction</string>
+    <string name="check_glucose">Quick check</string>
+    <string name="quick_check_description">Check sugar levels in five minutes! Click to start.</string>
+    <string name="No_now_cards">No cards available</string>
+    <string name="description">A revolutionizing way to reverse type 2 diabetes by lifestyle changes as guided by this smart app. Click to learn more!</string>
+</resources>
