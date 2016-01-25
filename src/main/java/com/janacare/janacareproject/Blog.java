@@ -6,10 +6,10 @@ package com.janacare.janacareproject;
 public class Blog {
     String title = "";
     String description = "";
-    String image_url = "";
+    int image_url = 0;
     String link = "";
 
-    public Blog(String description, String title, String image_url, String link) {
+    public Blog(String title, String description, int image_url, String link) {
         this.description = description;
         this.title = title;
         this.image_url = image_url;
@@ -32,11 +32,11 @@ public class Blog {
         this.description = description;
     }
 
-    public String getImage_url() {
+    public int getImage_url() {
         return image_url;
     }
 
-    public void setImage_url(String image_url) {
+    public void setImage_url(int image_url) {
         this.image_url = image_url;
     }
 

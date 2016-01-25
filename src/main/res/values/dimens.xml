@@ -41,4 +41,9 @@
     <dimen name="margin100">100dp</dimen>
     <dimen name="margin120">120dp</dimen>
 
+    <dimen name="global_margin">8dp</dimen>
+    <dimen name="global_padding">5dp</dimen>
+    <dimen name="title">35dp</dimen>
+
+
 </resources>
