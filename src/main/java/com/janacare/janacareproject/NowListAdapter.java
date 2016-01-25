@@ -165,6 +165,8 @@ public class NowListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             super(itemView);
             graph = (GraphView) itemView.findViewById(R.id.graph);
             glucase_level = (LinearLayout) itemView.findViewById(R.id.glucose_level);
+            graph.setOnClickListener(this);
+            glucase_level.setOnClickListener(this);
             itemView.setOnClickListener(this);
         }
 
